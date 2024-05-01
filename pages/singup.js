@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
       if (event.target.matches('.submit')) {
         event.preventDefault(); 
         if (passwordInput.value === confirmPasswordInput.value) {
-         window.location.href = 'index.html';
+         window.location.href = 'alekseii01.github.io/gallery';
         } else {
           alert('Passwords do not match');
         }
