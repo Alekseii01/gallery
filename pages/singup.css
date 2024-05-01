@@ -102,7 +102,16 @@ margin: 5px;
 .checkbox {
     font-size: 0.7em;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+}
+
+.forgot.blod {
+    display: flex;
     align-items: center;
 }
 

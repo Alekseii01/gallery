@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
       element.style.width = "100px";
       setTimeout(() => {
         element.style.width = "200px";
-      }, 100); // 1000ms = 1s
+      }, 100);
   
     const elements = document.querySelectorAll(".socials");
     elements.forEach((element) => {
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
       element.style.gap = "0px";
       setTimeout(() => {
         element.style.gap = "20px";
-      }, 100); // 1000ms = 1s
+      }, 100);
   
     });
     });
