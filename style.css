@@ -208,10 +208,16 @@ input[type="text"] {
   }
  }
 
- @media (max-width: 600px) {
+ @media (max-width: 690px) {
   #unsplash-photos {
     column-count: 2;
   }
- }
+  .search-icon {
+    font-size: 1.5em;
+  }
+  input[type="text"] {
+    width: 150px;
 
+ }
+}
 
