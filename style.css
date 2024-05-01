@@ -213,11 +213,17 @@ input[type="text"] {
   #unsplash-photos {
     column-count: 2;
   }
+
   .search-icon {
     font-size: 1.5em;
+
   }
   input[type="text"] {
-    width: 150px;
- }
-}
+    font-size: 1em;
+    width: 100px;
 
+  }
+  .login-signup {
+    font-size: 0.2rem;
+  }
+ }
