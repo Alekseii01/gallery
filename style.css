@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
 .main-nav {
   display: flex;
   justify-content: start;
@@ -162,6 +170,25 @@ input[type="text"] {
   transform: translateY(0);
  }
 
+ #alert {
+  display: none;
+  position: fixed;
+  left: 50%;
+  bottom: 10%;
+  transform: translateX(-50%);
+  width: 80%; 
+  max-width: 300px;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 99;
+  margin: 0 auto;
+  padding: 20px; 
+  text-align: center;
+  border-radius: 10px; 
+  color: white;
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
 
  @media (max-width: 1640px) {
   #unsplash-photos {
@@ -186,3 +213,5 @@ input[type="text"] {
     column-count: 2;
   }
  }
+
+
