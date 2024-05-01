@@ -1,0 +1,25 @@
+#unsplash-photos {
+    column-count: 6;
+    column-gap: 0;
+  }
+  
+  .img-style {
+    break-inside: avoid; 
+    margin: 15px;
+    padding-top: 5px;
+  }
+  
+  .img-style img {
+    width: 100%; 
+    border-radius: 20px;
+    height: auto; 
+    display: block; 
+  }
+
+  .img-style :hover {
+    transform: scale(1.05);
+    transition: 0.5s ease;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
