@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
           element.style.transition = "width 1s";
           element.style.width = "0";
           setTimeout(() => {
-            element.style.width = "100px";
+            element.style.width = "130px";
           }, 100); 
         } else {
           element.style.transition = "width 1s";
@@ -39,14 +39,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
   document.addEventListener('DOMContentLoaded', () => {
-    const passwordInput = document.getElementById('.password'); 
-    const confirmPasswordInput = document.getElementById('.confirmPassword');
+    const passwordInput = document.getElementById('password'); 
+    const confirmPasswordInput = document.getElementById('confirmPassword');
   
     document.body.addEventListener('click', (event) => {
       if (event.target.matches('.submit')) {
         event.preventDefault(); 
         if (passwordInput.value === confirmPasswordInput.value) {
-         window.location.href = 'alekseii01.github.io/gallery';
+         window.location.href = '../index.html';
         } else {
           alert('Passwords do not match');
         }

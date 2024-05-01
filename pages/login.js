@@ -27,3 +27,19 @@ document.addEventListener("DOMContentLoaded", function () {
     });
     }
   })
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const usernameInput = document.getElementById('username'); 
+    const passwordInput = document.getElementById('password');
+  
+    document.body.addEventListener('click', (event) => {
+      if (event.target.matches('.submit')) {
+        event.preventDefault(); 
+        if (usernameInput.value !== '' && passwordInput.value !== '') {
+         window.location.href = '../index.html';
+        } else {
+          alert('Username or Passwords incorrect');
+        }
+      }
+    });
+  });
